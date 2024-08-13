@@ -1,5 +1,5 @@
 ## Base Form Project
-Esse projeto simula uma versão simplificada da API do Respondi.app. Ele possui as entidades básicas para iniciar uma API que pode ser consumida por um front-end.
+Esse projeto simula uma versão simplificada da nossa API. Ele possui as entidades básicas para iniciar uma API que pode ser consumida por um front-end.
 
 
 O projeto roda em Laravel 10, você pode ler a documentação do framework [aqui](https://laravel.com/docs/10.x)
@@ -25,7 +25,7 @@ Para rodar o seed, use `artisan db:seed`
 Para simplificar, em ambiente de desenvolvimento use o driver `database` para rodar os jobs. Em produção, essa fila é implementada via Redis.
 
 # Arquitetura básica
-Essa API possui as entidades mínimas para funcionar como o Respondi funciona:
+Essa API possui as entidades mínimas para funcionar como o produto funciona:
 - Users: um usuário logado
 - Forms: um formulário que pertence a um usuário
 - Respondents: um visitante anônimo que responde um formulário
